@@ -1,0 +1,133 @@
+body {
+    background-color: #dadde2;
+}
+label {
+    margin-left: 20px;
+    margin-right: 5Px;
+}
+label[type=submit] {
+    margin-left: 15px;
+}
+label, input, p, h4, legend, b {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+fieldset {
+    background-color: #f6f8fc;
+}
+
+fieldset, table {
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 2px 5px 10px #888888;
+}
+
+td, input, select {
+    border: 1px solid rgb(0, 68, 255);
+    border-radius: 4px;
+}
+
+legend {
+    font-weight: 900;
+    font-size: 25px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+  }
+  
+  table td, table th {
+    border: 1px solid #ddd;
+    padding: 4px;
+  }
+  
+  table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4c74af;
+    color: white;
+  }
+
+.full-width {
+    width: 100%;
+}
+
+.header-container {
+    width: 100%;
+    height: 100px;
+    background-color: #3260a8;
+}
+.header-text {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.form-wrap {
+    display: flex;
+    margin-top: 30px;
+}
+.form-container-full {
+    width: 98%;
+    height: 120px;
+    padding: 15px;
+    margin-top: 15px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: grey;
+}
+.form-container {
+    width: 50%;
+    height: 100px;
+    padding: 15px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: grey;
+}
+.form-container-auto {
+    height: auto;
+    margin-top: 15px;
+    padding: 15px;
+    border-style: ridge;
+    border-width: 2px;
+    border-color: grey;
+}
+.text-connect {
+    padding-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #19b363;
+    font-size: 19px;
+    text-align: center;
+}
+
+.connect-input {
+    margin-left: 15px;
+}
+
+.status-container {
+    width: 100%; 
+    margin-top: 20px;
+}
+
+.server-input {
+    margin: 0 10px 15px 15px;
+}
+
+.table-input {
+    margin: 50px 15px 15px 15px;
+}
