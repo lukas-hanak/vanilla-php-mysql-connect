@@ -142,22 +142,22 @@ function renderTable() {
     $data = mysqli_query($GLOBALS["connection"], $cmdFetchData);
     echo '<table>';
         echo '<tr>';
-            if ($rows = mysqli_fetch_array($data, MYSQLI_ASSOC)) {
-                foreach (array_keys($rows) as $value) {
+            if ($row = mysqli_fetch_array($data, MYSQLI_ASSOC)) {
+                foreach (array_keys($row) as $value) {
                     if (isset($value)) {
-                        echo '<th>'.$value.'</th>';
+                        echo '<th>'.$value.'</t>';
                     }
                 }
             }
         echo '</tr>';
-        while ($rows = mysqli_fetch_array($data, MYSQLI_ASSOC)) {
+        $data2 = mysqli_query($GLOBALS["connection"], $cmdFetchData);
+        while ($row = mysqli_fetch_array($data2, MYSQLI_ASSOC)) {
             echo "<tr>";
-                foreach ($rows as $key=>$value) {
+                foreach ($row as $key=>$value) {
                     if (isset($value)) {
                         echo '<td>'.$value.'</td>';
                     }
                 }
-                echo "<td>";
             echo "</tr>";
         }
     echo '</table>';
